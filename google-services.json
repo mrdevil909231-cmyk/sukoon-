@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "19788571933",
+    "project_id": "gen-lang-client-0715321106",
+    "storage_bucket": "gen-lang-client-0715321106.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19788571933:android:b2f93532fa38802b05adf4",
+        "android_client_info": {
+          "package_name": "com.aistudio.instagram.instaq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19788571933-0u4gjgu321evnbpsk05u0sv5p7tmv3tr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aistudio.instagram.instaq",
+            "certificate_hash": "de78649b01e1132ebace6b63596a60611c474e04"
+          }
+        },
+        {
+          "client_id": "19788571933-ndahbianufcjq7u00fb7p1ick7dp1ivk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD34yZv5QU3nMb89XephO30WSaTFpX_I4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19788571933-ndahbianufcjq7u00fb7p1ick7dp1ivk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
