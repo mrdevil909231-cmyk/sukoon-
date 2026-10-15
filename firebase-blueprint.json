@@ -1,0 +1,71 @@
+{
+  "entities": {
+    "User": {
+      "collection": "users",
+      "fields": {
+        "id": { "type": "string" },
+        "username": { "type": "string" },
+        "fullName": { "type": "string" },
+        "avatarUrl": { "type": "string" },
+        "bio": { "type": "string" }
+      }
+    },
+    "Post": {
+      "collection": "posts",
+      "fields": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "username": { "type": "string" },
+        "userAvatar": { "type": "string" },
+        "imageUrl": { "type": "string" },
+        "caption": { "type": "string" },
+        "location": { "type": "string" },
+        "likesCount": { "type": "number" }
+      }
+    },
+    "Reel": {
+      "collection": "reels",
+      "fields": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "username": { "type": "string" },
+        "userAvatar": { "type": "string" },
+        "videoThumbnailUrl": { "type": "string" },
+        "audioTrack": { "type": "string" },
+        "caption": { "type": "string" },
+        "likesCount": { "type": "number" }
+      }
+    },
+    "Story": {
+      "collection": "stories",
+      "fields": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "username": { "type": "string" },
+        "userAvatar": { "type": "string" },
+        "imageUrl": { "type": "string" },
+        "caption": { "type": "string" }
+      }
+    },
+    "Message": {
+      "collection": "messages",
+      "fields": {
+        "id": { "type": "string" },
+        "threadId": { "type": "string" },
+        "senderId": { "type": "string" },
+        "text": { "type": "string" }
+      }
+    },
+    "Comment": {
+      "collection": "comments",
+      "fields": {
+        "id": { "type": "string" },
+        "targetId": { "type": "string" },
+        "userId": { "type": "string" },
+        "username": { "type": "string" },
+        "userAvatar": { "type": "string" },
+        "text": { "type": "string" }
+      }
+    }
+  }
+}

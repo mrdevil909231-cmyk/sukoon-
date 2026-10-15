@@ -1,0 +1,8 @@
+{
+  "firestore": [
+    {
+      "database": "ai-studio-android-sukoon-dc1cf719-8686-4a49-9243-61a12f128540",
+      "rules": "firestore.rules"
+    }
+  ]
+}

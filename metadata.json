@@ -1,0 +1,6 @@
+{
+  "name": "Sukoon",
+  "description": "Sukoon - Social experience with Reels, Stories, Direct Messages, and feed.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
